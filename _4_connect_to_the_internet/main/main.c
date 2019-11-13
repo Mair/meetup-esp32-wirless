@@ -49,23 +49,23 @@ void wifiInit()
   wifi_init_config_t wifi_init_config = WIFI_INIT_CONFIG_DEFAULT();
   ESP_ERROR_CHECK(esp_wifi_init(&wifi_init_config));
 
-  ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
-  wifi_config_t wifi_config =
-      {
-          .sta = {
-              .ssid = CONFIG_WIFI_SSID,
-              .password = CONFIG_WIFI_PASSWORD}};
-  esp_wifi_set_config(ESP_IF_WIFI_STA, &wifi_config);
-
-  // ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_AP));
+  // ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
   // wifi_config_t wifi_config =
   //     {
-  //         .ap = {
-  //             .ssid = "my esp32",
-  //             .password = "P@ssword",
-  //             .max_connection = 4,
-  //             .authmode = WIFI_AUTH_WPA_WPA2_PSK}};
-  // esp_wifi_set_config(ESP_IF_WIFI_AP, &wifi_config);
+  //         .sta = {
+  //             .ssid = CONFIG_WIFI_SSID,
+  //             .password = CONFIG_WIFI_PASSWORD}};
+  // esp_wifi_set_config(ESP_IF_WIFI_STA, &wifi_config);
+
+  ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_AP));
+  wifi_config_t wifi_config =
+      {
+          .ap = {
+              .ssid = "my esp32",
+              .password = "P@ssword",
+              .max_connection = 4,
+              .authmode = WIFI_AUTH_WPA_WPA2_PSK}};
+  esp_wifi_set_config(ESP_IF_WIFI_AP, &wifi_config);
 
   ESP_ERROR_CHECK(esp_wifi_start());
   xSemaphoreGive(onConnectionHandler);
