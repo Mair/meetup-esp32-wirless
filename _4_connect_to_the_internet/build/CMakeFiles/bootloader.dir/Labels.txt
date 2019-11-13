@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/CMakeFiles/bootloader
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/CMakeFiles/bootloader.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/CMakeFiles/bootloader-complete.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/_esp32/meetup/wirless_communication/_4_connect_to_the_internet/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

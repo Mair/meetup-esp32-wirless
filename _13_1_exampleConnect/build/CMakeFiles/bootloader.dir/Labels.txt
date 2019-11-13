@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/CMakeFiles/bootloader
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/CMakeFiles/bootloader.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/CMakeFiles/bootloader-complete.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/_esp32/esp32-course/_13_Internet_Connection/_13_1_exampleConnect/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
