@@ -1,15 +1,19 @@
 {
 	"folders": [
 		{
-			"path": "_1_minimal_client"
+			"name": "_1_exampleConnect",
+			"path": "_1_exampleConnect"
 		},
 		{
+			"name": "_2_minimal_server",
 			"path": "_2_minimal_server"
 		},
 		{
+			"name": "_3_wifi_scanner",
 			"path": "_3_wifi_scanner"
 		},
 		{
+			"name": "_4_connect_to_the_internet",
 			"path": "_4_connect_to_the_internet"
 		}
 	],
